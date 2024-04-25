@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon - Apple Products</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        header a {
+            color: white;
+            text-decoration: none;
+            padding: 5px;
+        }
+        main {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        form {
+            margin-top: 20px;
+        }
+        form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        form input[type="text"], form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <label for="home-link">Home</label>
+            <a id="home-link" href="#">Home</a>
+            <label for="products-link">Products</label>
+            <a id="products-link" href="#">Products</a>
+        </div>
+        <div>
+            <button>Login</button>
+            <button>Sign Up</button>
+        </div>
+    </header>
+    <main>
+        <h1>Apple Products</h1>
+        <img src="apple-product.jpg" alt="Apple Product" width="200">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
+    </main>
+    <footer>
+        &copy; 2022 Amazon. All rights reserved.
+    </footer>
+    <form>
+        <h2>Contact Us</h2>
+        <label for="name-input">Name</label>
+        <input id="name-input" type="text" placeholder="Name">
+        <label for="email-input">Email</label>
+        <input id="email-input" type="text" placeholder="Email">
+        <label for="message-input">Message</label>
+        <textarea id="message-input" placeholder="Message"></textarea>
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>
